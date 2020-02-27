@@ -1,0 +1,81 @@
+.ui-icon{
+    color: white;
+}
+button{
+    bottom:0px;
+	background: #0065a8;
+	background-image: -webkit-linear-gradient(top, #0065a8, #002c47);
+	background-image: -moz-linear-gradient(top, #0065a8, #002c47);
+	background-image: -ms-linear-gradient(top, #0065a8, #002c47);
+	background-image: -o-linear-gradient(top, #0065a8, #002c47);
+	background-image: linear-gradient(to bottom, #0065a8, #002c47);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 7px 10px 7px 10px;
+	border: solid #333333 2px;
+	text-decoration: none;
+	width: 140px;
+}
+button:hover {
+	background: #000000;
+	background-image: -webkit-linear-gradient(top, #000000, #000000);
+	background-image: -moz-linear-gradient(top, #000000, #000000);
+	background-image: -ms-linear-gradient(top, #000000, #000000);
+	background-image: -o-linear-gradient(top, #000000, #000000);
+	background-image: linear-gradient(to bottom, #000000, #000000);
+	text-decoration: none;
+}
+body {
+	margin:0px;
+	background: #000000;
+}
+#map {
+	background-image: url('space.jpg');
+}
+//.ui-icon-custom { background-image: url(images/custom.png); }
+#randomPointSpinner {
+	width: 50px;
+	font-size: 18px;
+	border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    padding-left:10px; 
+    padding-right:10px;
+	text-align: center;
+
+}
+.ol-mouse-position{top:8px;right:8px;position:absolute}
+
+p{
+    float:left;
+    margin:0px;
+	color: #FFFFFF;
+	padding: 0px 0px 0px 15px
+}
+
+#landing {
+	background-image: url('space.jpg');
+	
+}
+
+p.landingtext {
+	text-align: center;
+	font-size: 36px;
+	position: relative;
+	width: 100%;
+	top: 50%
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #999999;
+}
